@@ -19,6 +19,10 @@ Standard.args = {
       },
       options: ['tiny', 'small', 'medium', 'large']
     }
+  },
+  parameters: {
+    componentSubtitle:
+      'Displays an image that represents a user or organization'
   }
 };
 
@@ -33,6 +37,13 @@ export const Sizes = (args) => (
 Sizes.args = {
   username: 'Tom Coleman',
   src: 'https://avatars2.githubusercontent.com/u/132554'
+};
+
+Sizes.parameters = {
+  docs: {
+    // The story now contains a description
+    storyDescription: '4 sizes are supported.'
+  }
 };
 
 export const Initials = (args) => (
