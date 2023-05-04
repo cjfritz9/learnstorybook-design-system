@@ -2272,6 +2272,33 @@
     remark-slug "^6.0.0"
     ts-dedent "^2.0.0"
 
+"@storybook/addon-docs@^7.0.8":
+  version "7.0.8"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-docs/-/addon-docs-7.0.8.tgz#fdb39a7dd848c2bae18356e87a3950049c013fad"
+  integrity sha512-X+fWWaGELyQoQna5cCegUn3swfjdicbmUNJLEiU7kV7pa2fmNyx801gdkS7x1s5wjBkxVDU/TJ3kvd8tfWPV7A==
+  dependencies:
+    "@babel/core" "^7.20.2"
+    "@babel/plugin-transform-react-jsx" "^7.19.0"
+    "@jest/transform" "^29.3.1"
+    "@mdx-js/react" "^2.1.5"
+    "@storybook/blocks" "7.0.8"
+    "@storybook/client-logger" "7.0.8"
+    "@storybook/components" "7.0.8"
+    "@storybook/csf-plugin" "7.0.8"
+    "@storybook/csf-tools" "7.0.8"
+    "@storybook/global" "^5.0.0"
+    "@storybook/mdx2-csf" "^1.0.0"
+    "@storybook/node-logger" "7.0.8"
+    "@storybook/postinstall" "7.0.8"
+    "@storybook/preview-api" "7.0.8"
+    "@storybook/react-dom-shim" "7.0.8"
+    "@storybook/theming" "7.0.8"
+    "@storybook/types" "7.0.8"
+    fs-extra "^11.1.0"
+    remark-external-links "^8.0.0"
+    remark-slug "^6.0.0"
+    ts-dedent "^2.0.0"
+
 "@storybook/addon-essentials@^7.0.7":
   version "7.0.7"
   resolved "https://registry.yarnpkg.com/@storybook/addon-essentials/-/addon-essentials-7.0.7.tgz#5675b4ccf24f6b240f47be75a09886088757e3c9"
@@ -2431,6 +2458,34 @@
     "@storybook/preview-api" "7.0.7"
     "@storybook/theming" "7.0.7"
     "@storybook/types" "7.0.7"
+    "@types/lodash" "^4.14.167"
+    color-convert "^2.0.1"
+    dequal "^2.0.2"
+    lodash "^4.17.21"
+    markdown-to-jsx "^7.1.8"
+    memoizerific "^1.11.3"
+    polished "^4.2.2"
+    react-colorful "^5.1.2"
+    telejson "^7.0.3"
+    ts-dedent "^2.0.0"
+    util-deprecate "^1.0.2"
+
+"@storybook/blocks@7.0.8":
+  version "7.0.8"
+  resolved "https://registry.yarnpkg.com/@storybook/blocks/-/blocks-7.0.8.tgz#9a006cd4e2c1d834891f9d48bd12c10bca62fddd"
+  integrity sha512-VAzlMf5DRm0ZX6/9W/4Izv3j9n87i4MthBmN+rnUG+cmPumBm3xtETJqZbSIAWAM4ucKHrgrKQhZPg1QX1U66w==
+  dependencies:
+    "@storybook/channels" "7.0.8"
+    "@storybook/client-logger" "7.0.8"
+    "@storybook/components" "7.0.8"
+    "@storybook/core-events" "7.0.8"
+    "@storybook/csf" "^0.1.0"
+    "@storybook/docs-tools" "7.0.8"
+    "@storybook/global" "^5.0.0"
+    "@storybook/manager-api" "7.0.8"
+    "@storybook/preview-api" "7.0.8"
+    "@storybook/theming" "7.0.8"
+    "@storybook/types" "7.0.8"
     "@types/lodash" "^4.14.167"
     color-convert "^2.0.1"
     dequal "^2.0.2"
@@ -2704,7 +2759,7 @@
     resolve-from "^5.0.0"
     ts-dedent "^2.0.0"
 
-"@storybook/core-common@^7.0.0-beta.0 || ^7.0.0-rc.0 || ^7.0.0":
+"@storybook/core-common@7.0.8", "@storybook/core-common@^7.0.0-beta.0 || ^7.0.0-rc.0 || ^7.0.0":
   version "7.0.8"
   resolved "https://registry.yarnpkg.com/@storybook/core-common/-/core-common-7.0.8.tgz#05c87cc48b1ae748ce43193171de06db195e44e5"
   integrity sha512-W0/jtHndO4GO98g9bWnkMB9rZrH+aZCefEGZcUrTpgOa+Ws/b6l8YDEoR1V1hGPROT5cn82+9zU4s5y1d462Sg==
@@ -2806,6 +2861,14 @@
     "@storybook/csf-tools" "7.0.7"
     unplugin "^0.10.2"
 
+"@storybook/csf-plugin@7.0.8":
+  version "7.0.8"
+  resolved "https://registry.yarnpkg.com/@storybook/csf-plugin/-/csf-plugin-7.0.8.tgz#35f1731ba063de1c99f0f89922bc6d07e2f26989"
+  integrity sha512-HDdAOmS/mstjyE8LxXebSv207lqulC+gawbeWpfZKdR0MOkfn2WmWlIxvLYRrcejkUg8irNS4SHNGBCwygde4A==
+  dependencies:
+    "@storybook/csf-tools" "7.0.8"
+    unplugin "^0.10.2"
+
 "@storybook/csf-tools@7.0.7":
   version "7.0.7"
   resolved "https://registry.yarnpkg.com/@storybook/csf-tools/-/csf-tools-7.0.7.tgz#d75a0f57b1660338a985eb88bb5dbe45edf48019"
@@ -2821,7 +2884,7 @@
     recast "^0.23.1"
     ts-dedent "^2.0.0"
 
-"@storybook/csf-tools@^7.0.0-beta.0 || ^7.0.0-rc.0 || ^7.0.0":
+"@storybook/csf-tools@7.0.8", "@storybook/csf-tools@^7.0.0-beta.0 || ^7.0.0-rc.0 || ^7.0.0":
   version "7.0.8"
   resolved "https://registry.yarnpkg.com/@storybook/csf-tools/-/csf-tools-7.0.8.tgz#859c58448e66086e2e7b232b9b2248c2dbd167ae"
   integrity sha512-bMuljBJrZ1UL80NAHNfGgcDg7bMLnsppmuX6WVayOKMM3BcuRQVNiWC0ZLC6yrmPRinalqWdE/GDhwA/IevThg==
@@ -2857,6 +2920,19 @@
     "@storybook/core-common" "7.0.7"
     "@storybook/preview-api" "7.0.7"
     "@storybook/types" "7.0.7"
+    "@types/doctrine" "^0.0.3"
+    doctrine "^3.0.0"
+    lodash "^4.17.21"
+
+"@storybook/docs-tools@7.0.8":
+  version "7.0.8"
+  resolved "https://registry.yarnpkg.com/@storybook/docs-tools/-/docs-tools-7.0.8.tgz#94bc16619dda33d94b8ee281b6e7d45e642d91a2"
+  integrity sha512-Lg/Cnhh3OURzCamWUNFLm0IqolzId6w+n1NCwSTEdPJ1PFKAYvuewRoul9gbaAfzg4pzWITGpltyzRmFH/G6Xw==
+  dependencies:
+    "@babel/core" "^7.12.10"
+    "@storybook/core-common" "7.0.8"
+    "@storybook/preview-api" "7.0.8"
+    "@storybook/types" "7.0.8"
     "@types/doctrine" "^0.0.3"
     doctrine "^3.0.0"
     lodash "^4.17.21"
@@ -2971,6 +3047,11 @@
   resolved "https://registry.yarnpkg.com/@storybook/postinstall/-/postinstall-7.0.7.tgz#93350a924da06035dc8683c8c8ab2609186bdb6b"
   integrity sha512-APcZ2KaR7z1aJje3pID4Ywmt1/aVcP3Sc4ltzNdH9mCkEsuq0fZHHQrYSa9Ya1IPRmSeLZ5/23q1iyqmGU3zoQ==
 
+"@storybook/postinstall@7.0.8":
+  version "7.0.8"
+  resolved "https://registry.yarnpkg.com/@storybook/postinstall/-/postinstall-7.0.8.tgz#5758a80960694af9a51bb42b2404b8646e77e801"
+  integrity sha512-EVVsnSych+2DfmhWr86x4pM7FDGbhXZ3jOUzYydNboDHzl922RdAsj5LSfLeAne74gArJX3H/XzoqCBNA5V/GQ==
+
 "@storybook/preset-create-react-app@^7.0.7":
   version "7.0.7"
   resolved "https://registry.yarnpkg.com/@storybook/preset-create-react-app/-/preset-create-react-app-7.0.7.tgz#c87d5240b7a4253d481ffe5d849e372b0a157121"
@@ -3070,6 +3151,11 @@
   version "7.0.7"
   resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-7.0.7.tgz#c733bae46900098b494bbeb9ef5e2bc9b23cca8d"
   integrity sha512-INGwFeu9M+RzpvktSKuwy8Rk/70mXGqxxsb9lPtq7phmETvfpNX7GnLJqiVazTaQiB1DkB0iAPUsK2MNbBu+Kw==
+
+"@storybook/react-dom-shim@7.0.8":
+  version "7.0.8"
+  resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-7.0.8.tgz#8af5ff5e45a1e806f82147f98db6841e15253fba"
+  integrity sha512-7o5eIf5t2CnGST+MZF2lMsX7MRH/y2698J/E69naVwigoX28ooSjwxBsXMdQhG5Y2XKda+NNnQgyvOsgYeH/Og==
 
 "@storybook/react-webpack5@^7.0.7":
   version "7.0.7"
